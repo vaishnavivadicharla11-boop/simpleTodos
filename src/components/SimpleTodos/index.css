@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  border-color: #ff8542;
+  background-size: cover;
+}
+.container {
+  background-color: #ffffff;
+}
+.heading {
+  font-family: Roboto;
+  color: #ff8542;
+}
