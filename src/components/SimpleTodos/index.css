@@ -1,0 +1,81 @@
+.bg-container {
+  min-height: 100vh;
+  background-color: #ffc2a0;
+  padding: 40px 20px;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.heading {
+  color: #ff8542;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.add-todo-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.todo-input {
+  flex: 1;
+  height: 42px;
+  padding: 8px 12px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.add-button {
+  height: 42px;
+  padding: 0 22px;
+  background-color: #ff8542;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    padding: 20px 12px;
+  }
+
+  .container {
+    padding: 20px 15px;
+  }
+
+  .heading {
+    font-size: 26px;
+  }
+
+  .todo-input {
+    font-size: 14px;
+  }
+
+  .add-button {
+    padding: 0 15px;
+  }
+}
